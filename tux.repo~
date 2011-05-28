@@ -1,0 +1,15 @@
+[tux]
+name=tux packages
+failovermethod=priority
+baseurl=http://localhost/tux/os
+enabled=1
+metadata_expire=7d
+gpgcheck=0
+
+[tux-source]
+name=tux packages
+failovermethod=priority
+baseurl=http://localhost/tux/source
+enabled=1
+metadata_expire=7d
+gpgcheck=0
